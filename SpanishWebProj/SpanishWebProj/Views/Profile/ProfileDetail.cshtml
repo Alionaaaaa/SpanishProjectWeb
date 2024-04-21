@@ -1,0 +1,138 @@
+﻿@model Domain.Models.Profile.ProfileViewModel
+
+<title>Profil</title>
+<style>
+    /* Stilizare pentru containerul principal */
+    .profile-container {
+        width: 700px;
+        height: 700px;
+        background-color: #f0f0f0;
+        border-radius: 15px;
+        padding: 10px;
+        position: center;
+    }
+
+    /* Stilizare pentru imaginea profilului */
+    .profile-image {
+        width: 200px;
+        height: 200px;
+        overflow: hidden; /* Pentru a ascunde marginile din afara cercului */
+        position: center;
+    }
+
+    /* Stilizare pentru butonul de delogare */
+    .logout-button {
+        width: 120px;
+        height: 50px;
+        background-color: red;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+    /* Stilizare pentru containerul imaginii */
+    .profile-image-container {
+        width: 200px;
+        height: 200px;
+        background-color: orange;
+        /* background-color: #f0f0f0; */
+        border-radius: 50px;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto; /* Pentru a centra containerul pe orizontală */
+    }
+
+
+    /* Stilizare pentru numele utilizatorului */
+    .username {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /* Stilizare pentru textul numelui de utilizator */
+    .username-text {
+        font-weight: bold;
+        font-size: 25px; /* Ajustați dimensiunea fontului la preferințele dvs. */
+        color: blue;
+    }
+
+    /* Stilizare pentru containerul referințelor */
+    .references-container {
+        margin-top: 20px; /* Spațierea între linii */
+        text-align: center; /* Alinierea centrului */
+    }
+
+    /* Stilizare pentru fiecare referință */
+    .reference {
+        margin-top: 10px; /* Spațiere între referințe */
+    }
+
+        /* Stilizare pentru link-uri */
+        .reference a {
+            text-decoration: none; /* Eliminarea sublinierii */
+            color: #000; /* Culorează link-urile */
+            margin: 0 10px; /* Spațiere între link-uri */
+        }
+
+
+</style>
+
+<div class="row" style="padding-top:40px">
+    <div class="profile-container col">
+
+        @* <!-- Containerul pentru imagine -->
+        <div class="profile-image-container">
+            <!-- Imaginea profilului -->
+            <img class="profile-image" src="/sounds/gif/cute.gif" alt="cute">
+        </div> *@
+        <!-- Container pentru imaginea profilului -->
+        <div class="profile-image-container">
+            @if (Model != null)
+            {
+                <img class="profile-image" src="@(Model.Image ?? "/sounds/img/noimg.jpg")" alt="Profil Image">
+            }
+            else
+            {
+                <img class="profile-image" src="/sounds/img/noimg.jpg" alt="Profil Image">
+            }
+
+        </div>
+        
+        <!-- Numele utilizatorului -->
+        <!-- Numele utilizatorului -->
+        <div class="username">
+            <div class="username-text">
+                <p>@Model.UserName</p>
+            </div>
+        </div>
+        <hr />
+        <!-- Afisare vârstă și nivel -->
+        @* <div class="profile-details">
+            <p>Vârstă: @Model.Age</p>
+            <p>Nivel: @Model.Level</p>
+        </div> *@
+
+        <!-- Containerul pentru referințe -->
+        <div class="references-container">
+            <!-- Referința la feedback -->
+            <div class="reference">
+                <a href="link_catre_feedback">Feedback</a>
+            </div>
+            <!-- Referințe către rețelele sociale -->
+            <div class="reference">
+                <a href="link_catre_retea_sociala_1">ReteaSociala1</a>
+                <a href="link_catre_retea_sociala_2">ReteaSociala2</a>
+                <!-- Adaugă aici alte referințe către alte rețele sociale, după necesități -->
+            </div>
+        </div>
+        
+
+        <!-- Buton de delogare -->
+        <form method="post" asp-controller="Account" asp-action="Logout">
+            <input class="logout-button btn-danger rounded " col-1 style=" font-weight: bold; font-size:19px;" type="submit" value="Ieșire"/>
+        </form>
+    </div>
+</div>

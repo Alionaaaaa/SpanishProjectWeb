@@ -1,0 +1,187 @@
+D:\LICENTA\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+D:\LICENTA\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+D:\LICENTA\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+D:\LICENTA\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.dll
+D:\LICENTA\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.dll
+D:\LICENTA\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.pdb
+D:\LICENTA\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.pdb
+D:\LICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+D:\LICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\LICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\LICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+D:\LICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\LICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+D:\LICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+D:\LICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+D:\LICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+D:\LICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.dll
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.dll
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.pdb
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.pdb
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+E:\LicentaSolveQuiz\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.dll
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.dll
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.pdb
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.pdb
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+E:\LicentaAddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.pdb
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.pdb
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+E:\Licenta3AddTeamplate\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+E:\Licenta v4\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+E:\Licenta v4\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+E:\Licenta v4\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+E:\Licenta v4\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.dll
+E:\Licenta v4\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.dll
+E:\Licenta v4\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.pdb
+E:\Licenta v4\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.pdb
+E:\Licenta v4\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+E:\Licenta v4\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+E:\Licenta v4\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+E:\Licenta v4\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+E:\Licenta v4\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+E:\Licenta v4\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+E:\Licenta v4\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+E:\Licenta v4\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+E:\Licenta v4\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+E:\Licenta v4\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.pdb
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.pdb
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+E:\Licenta v5 AddPDF\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.pdb
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.pdb
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+E:\Licenta v6 vocabular2\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.pdb
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.pdb
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+E:\Licenta v7 Profil si forum\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.pdb
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.pdb
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+E:\V8GestionareUtilizatori\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.dll
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.dll
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.pdb
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.pdb
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+D:\LICENTA\V10Recover\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.dll
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.dll
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\DAL.pdb
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\bin\Debug\net6.0\Domain.pdb
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+D:\ProjLICENTA\SpanishWebProj\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll

@@ -1,0 +1,122 @@
+﻿@* <header class="header_section">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">LearnSpanish</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Course" asp-action="GetCourses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Vocabulary" asp-action="Vocabulary">Vocabulary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Quiz" asp-action="GetQuizes">Quiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Grammar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">References</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle paragraphLayout active text-black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family:'Times New Roman'; font-weight: bold;">
+                            Cont
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <ul class="nav flex-column paragraphHome">
+                                            <li class="nav-item text-center">
+                                                <a class="nav-link active text-white" asp-controller="Account" asp-action="Register">
+                                                    Înregistrare
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active text-white" asp-controller="Account" asp-action="Login">
+                                                    Intrare
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header> *@
+
+
+
+
+
+<aside id="colorlib-aside">
+    <h1 id="colorlib-logo"><a style="font-size: 29px">Învață spaniola</a></h1>
+    <hr /> <!-- Linie orizontală -->
+    <nav id="colorlib-main-menu" role="navigation">
+        <ul>
+
+            @if (!User.Identity.IsAuthenticated)
+            {
+                <li>
+                    <a style="font-size: 25px" asp-area="" asp-controller="Account" asp-action="Login">Autentificare</a>
+                </li>
+                <li>
+                    <a style="font-size: 25px" asp-area="" asp-controller="Account" asp-action="Register">Înregistrare</a>
+                </li>
+
+            }
+            @if (User.Identity.IsAuthenticated)
+            {
+                
+                <li>
+                    <a style="font-size: 25px" asp-area="" asp-controller="Vocabulary" asp-action="GetLessons">Vocabular</a>
+                </li>
+                <li>
+                    <a style="font-size: 25px" asp-area="" asp-controller="Worksheets" asp-action="GetWorksheets">Descarcă</a>
+                </li>
+                <li>
+                    <a style="font-size: 25px" asp-area="" asp-controller="Quiz" asp-action="GetQuizes">Exersare</a>
+                </li>
+                <li>
+                    <a style="font-size: 25px" asp-area="" asp-controller="ExamDele" asp-action="GetExams">Examene DELE</a>
+                </li>
+                
+
+                @if (User.IsInRole("Admin"))
+                {
+                    <li>
+                        <a style="font-size: 25px" asp-area="" asp-controller="User" asp-action="GetUsers">Gestionarea utilizatorilor</a>
+                    </li>
+                }
+
+
+                <!-- Buton de delogare -->
+                <form method="post" asp-controller="Account" asp-action="Logout" style="margin-top: 80px; text-align: center;">
+                    <input class="logout-button btn-danger rounded " col-1 style=" font-weight: bold; font-size:19px;" type="submit" value="Ieșire" />
+                </form>
+
+            }
+
+        </ul>
+    </nav>
+
+   @*  <div class="colorlib-footer">     
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> Spanish <i class="icon-heart" aria-hidden="true"></i>
+            <ul>
+                <li><a href="#"><i class="icon-instagram"></i></a></li>
+            </ul>
+    </div> *@
+</aside> <!-- END COLORLIB-ASIDE -->

@@ -1,0 +1,31 @@
+﻿<!-- CSHTML file -->
+<img id="cuteGif" src="/sounds/gif/cute.gif" alt="cute" width="180" height="180">
+<img id="happyGif" src="/sounds/gif/happy.gif" alt="happy" width="180" height="180">
+<img id="sadGif" src="/sounds/gif/sad.gif" alt="sad" width="180" height="180">
+
+<button id="myButton">Schimbă GIF-ul</button>
+// JavaScript section
+<script>
+    document.getElementById("myButton").addEventListener("click", function () {
+        // Aici verificăm starea curentă a GIF-ului și schimbăm în consecință
+        var cuteGif = document.getElementById("cuteGif");
+        var happyGif = document.getElementById("happyGif");
+        var sadGif = document.getElementById("sadGif");
+
+        if (cuteGif.style.display !== "none") {
+            cuteGif.style.display = "none";
+            happyGif.style.display = "block";
+        } else if (happyGif.style.display !== "none") {
+            happyGif.style.display = "none";
+            sadGif.style.display = "block";
+        } else {
+            sadGif.style.display = "none";
+            cuteGif.style.display = "block";
+        }
+    });
+</script>
+<iframe width="560"
+        height="315"
+        src="http://www.youtube.com/embed/fxCEcPxUbYA"
+        frameborder="0"
+        allowfullscreen></iframe>

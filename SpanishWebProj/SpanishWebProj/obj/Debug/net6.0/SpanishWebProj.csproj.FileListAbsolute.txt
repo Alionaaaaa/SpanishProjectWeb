@@ -1,0 +1,886 @@
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.Development.json
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.json
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.staticwebassets.runtime.json
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.exe
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.deps.json
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.runtimeconfig.json
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.pdb
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.GeneratedMSBuildEditorConfig.editorconfig
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfoInputs.cache
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfo.cs
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CoreCompileInputs.cache
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.MvcApplicationPartsAssemblyInfo.cache
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cache
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cs
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.SpanishWebProj.Microsoft.AspNetCore.StaticWebAssets.props
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.build.SpanishWebProj.props
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SpanishWebProj.props
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SpanishWebProj.props
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.pack.json
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.build.json
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.development.json
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\bundle\SpanishWebProj.styles.css
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\projectbundle\SpanishWebProj.bundle.scp.css
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\refint\SpanishWebProj.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.pdb
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.genruntimeconfig.cache
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\ref\SpanishWebProj.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.pdb
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.AssemblyReference.cache
+D:\LICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CopyComplete
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.pdb
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Humanizer.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.pdb
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+D:\LICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.Development.json
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.json
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.staticwebassets.runtime.json
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.exe
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.deps.json
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.runtimeconfig.json
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.pdb
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Humanizer.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.pdb
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.pdb
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.pdb
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.AssemblyReference.cache
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.GeneratedMSBuildEditorConfig.editorconfig
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfoInputs.cache
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfo.cs
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CoreCompileInputs.cache
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.MvcApplicationPartsAssemblyInfo.cache
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cache
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cs
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.SpanishWebProj.Microsoft.AspNetCore.StaticWebAssets.props
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.build.SpanishWebProj.props
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SpanishWebProj.props
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SpanishWebProj.props
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.pack.json
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.build.json
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.development.json
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\bundle\SpanishWebProj.styles.css
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\projectbundle\SpanishWebProj.bundle.scp.css
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CopyComplete
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\refint\SpanishWebProj.dll
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.pdb
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.genruntimeconfig.cache
+E:\LicentaSolveQuiz\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\ref\SpanishWebProj.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.Development.json
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.json
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.staticwebassets.runtime.json
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.exe
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.deps.json
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.runtimeconfig.json
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.pdb
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Humanizer.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.pdb
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.pdb
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.pdb
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.AssemblyReference.cache
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.GeneratedMSBuildEditorConfig.editorconfig
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfoInputs.cache
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfo.cs
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CoreCompileInputs.cache
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.MvcApplicationPartsAssemblyInfo.cache
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cache
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cs
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.SpanishWebProj.Microsoft.AspNetCore.StaticWebAssets.props
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.build.SpanishWebProj.props
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SpanishWebProj.props
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SpanishWebProj.props
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.pack.json
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.build.json
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.development.json
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\bundle\SpanishWebProj.styles.css
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\projectbundle\SpanishWebProj.bundle.scp.css
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CopyComplete
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\refint\SpanishWebProj.dll
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.pdb
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.genruntimeconfig.cache
+E:\LicentaAddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\ref\SpanishWebProj.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.Development.json
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.json
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.staticwebassets.runtime.json
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.exe
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.deps.json
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.runtimeconfig.json
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.pdb
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Humanizer.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.pdb
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.pdb
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.pdb
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.AssemblyReference.cache
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.GeneratedMSBuildEditorConfig.editorconfig
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfoInputs.cache
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfo.cs
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CoreCompileInputs.cache
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.MvcApplicationPartsAssemblyInfo.cache
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cache
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cs
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.SpanishWebProj.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.build.SpanishWebProj.props
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SpanishWebProj.props
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SpanishWebProj.props
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.build.json
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.development.json
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\bundle\SpanishWebProj.styles.css
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\projectbundle\SpanishWebProj.bundle.scp.css
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CopyComplete
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\refint\SpanishWebProj.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.pdb
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.genruntimeconfig.cache
+E:\Licenta3AddTeamplate\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\ref\SpanishWebProj.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.Development.json
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.json
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.staticwebassets.runtime.json
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.exe
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.deps.json
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.runtimeconfig.json
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.pdb
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Humanizer.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.pdb
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.pdb
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.pdb
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.AssemblyReference.cache
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.GeneratedMSBuildEditorConfig.editorconfig
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfoInputs.cache
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfo.cs
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CoreCompileInputs.cache
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.MvcApplicationPartsAssemblyInfo.cache
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cache
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cs
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.SpanishWebProj.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.build.SpanishWebProj.props
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SpanishWebProj.props
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SpanishWebProj.props
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.build.json
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.development.json
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\bundle\SpanishWebProj.styles.css
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\projectbundle\SpanishWebProj.bundle.scp.css
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CopyComplete
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\refint\SpanishWebProj.dll
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.pdb
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.genruntimeconfig.cache
+E:\Licenta v4\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\ref\SpanishWebProj.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.Development.json
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.json
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.staticwebassets.runtime.json
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.exe
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.deps.json
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.runtimeconfig.json
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.pdb
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Humanizer.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.pdb
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.pdb
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.pdb
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.AssemblyReference.cache
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.GeneratedMSBuildEditorConfig.editorconfig
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfoInputs.cache
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfo.cs
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CoreCompileInputs.cache
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.MvcApplicationPartsAssemblyInfo.cache
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cache
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cs
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.SpanishWebProj.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.build.SpanishWebProj.props
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SpanishWebProj.props
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SpanishWebProj.props
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.build.json
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.development.json
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\bundle\SpanishWebProj.styles.css
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\projectbundle\SpanishWebProj.bundle.scp.css
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CopyComplete
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\refint\SpanishWebProj.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.pdb
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.genruntimeconfig.cache
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\ref\SpanishWebProj.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.MvcApplicationPartsAssemblyInfo.cs
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.Development.json
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.json
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.staticwebassets.runtime.json
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.exe
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.deps.json
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.runtimeconfig.json
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.pdb
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Humanizer.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.pdb
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.pdb
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.pdb
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.AssemblyReference.cache
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.GeneratedMSBuildEditorConfig.editorconfig
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfoInputs.cache
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfo.cs
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CoreCompileInputs.cache
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.MvcApplicationPartsAssemblyInfo.cache
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cache
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cs
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.SpanishWebProj.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.build.SpanishWebProj.props
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SpanishWebProj.props
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SpanishWebProj.props
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.build.json
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.development.json
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\bundle\SpanishWebProj.styles.css
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\projectbundle\SpanishWebProj.bundle.scp.css
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CopyComplete
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\refint\SpanishWebProj.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.pdb
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.genruntimeconfig.cache
+E:\Licenta v6 vocabular2\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\ref\SpanishWebProj.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.Development.json
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.json
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.staticwebassets.runtime.json
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.exe
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.deps.json
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.runtimeconfig.json
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.pdb
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Humanizer.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.pdb
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.pdb
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.pdb
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.AssemblyReference.cache
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.GeneratedMSBuildEditorConfig.editorconfig
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfoInputs.cache
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfo.cs
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CoreCompileInputs.cache
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.MvcApplicationPartsAssemblyInfo.cache
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cache
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cs
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.SpanishWebProj.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.build.SpanishWebProj.props
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SpanishWebProj.props
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SpanishWebProj.props
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.build.json
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.development.json
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\bundle\SpanishWebProj.styles.css
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\projectbundle\SpanishWebProj.bundle.scp.css
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CopyComplete
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\refint\SpanishWebProj.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.pdb
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.genruntimeconfig.cache
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\ref\SpanishWebProj.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\nlog.config
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\nlog.config
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.Development.json
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.json
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.staticwebassets.runtime.json
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.exe
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.deps.json
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.runtimeconfig.json
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.pdb
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Humanizer.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.pdb
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.pdb
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.pdb
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.AssemblyReference.cache
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.GeneratedMSBuildEditorConfig.editorconfig
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfoInputs.cache
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfo.cs
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CoreCompileInputs.cache
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.MvcApplicationPartsAssemblyInfo.cache
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cache
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cs
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.SpanishWebProj.Microsoft.AspNetCore.StaticWebAssets.props
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.build.SpanishWebProj.props
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SpanishWebProj.props
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SpanishWebProj.props
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.pack.json
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.build.json
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.development.json
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\bundle\SpanishWebProj.styles.css
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\projectbundle\SpanishWebProj.bundle.scp.css
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CopyComplete
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\refint\SpanishWebProj.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.pdb
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.genruntimeconfig.cache
+E:\V8GestionareUtilizatori\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\ref\SpanishWebProj.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\nlog.config
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.Development.json
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.json
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.staticwebassets.runtime.json
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.exe
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.deps.json
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.runtimeconfig.json
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.pdb
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Humanizer.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.pdb
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.pdb
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.pdb
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.AssemblyReference.cache
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.GeneratedMSBuildEditorConfig.editorconfig
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfoInputs.cache
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfo.cs
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CoreCompileInputs.cache
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.MvcApplicationPartsAssemblyInfo.cache
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cache
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cs
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.SpanishWebProj.Microsoft.AspNetCore.StaticWebAssets.props
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.build.SpanishWebProj.props
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SpanishWebProj.props
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SpanishWebProj.props
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.pack.json
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.build.json
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.development.json
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\bundle\SpanishWebProj.styles.css
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\projectbundle\SpanishWebProj.bundle.scp.css
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CopyComplete
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\refint\SpanishWebProj.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.pdb
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.genruntimeconfig.cache
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\ref\SpanishWebProj.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\HtmlAgilityPack.dll
+D:\LICENTA\V10Recover\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\nlog.config
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.Development.json
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\appsettings.json
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.staticwebassets.runtime.json
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.exe
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.deps.json
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.runtimeconfig.json
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\SpanishWebProj.pdb
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\HtmlAgilityPack.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Humanizer.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\BusinessLogic.pdb
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\DAL.pdb
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\bin\Debug\net6.0\Domain.pdb
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.AssemblyReference.cache
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfoInputs.cache
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.AssemblyInfo.cs
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CoreCompileInputs.cache
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.MvcApplicationPartsAssemblyInfo.cache
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cache
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.RazorAssemblyInfo.cs
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.SpanishWebProj.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.build.SpanishWebProj.props
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SpanishWebProj.props
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SpanishWebProj.props
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.pack.json
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.build.json
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\staticwebassets.development.json
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\bundle\SpanishWebProj.styles.css
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\scopedcss\projectbundle\SpanishWebProj.bundle.scp.css
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.csproj.CopyComplete
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\refint\SpanishWebProj.dll
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.pdb
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\SpanishWebProj.genruntimeconfig.cache
+D:\ProjLICENTA\SpanishWebProj\SpanishWebProj\obj\Debug\net6.0\ref\SpanishWebProj.dll

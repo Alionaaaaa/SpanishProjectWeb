@@ -1,0 +1,67 @@
+﻿@using Domain.Models.Forum
+@model List<Domain.Entity.Forum.ForumTopic>
+
+<style>
+    /* Stilizare pentru categorii */
+    .category {
+        background-color: #FFA500; /* Galben-oranj */
+        padding: 10px;
+        margin-bottom: 18px; /* Distanță între categorii */
+        border-radius: 5px;
+        text-align: center; /* Aliniere text la centru */
+    }
+
+    /* Stilizare pentru titlu categorie */
+    .category-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    /* Stilizare pentru containerul de subiecte */
+    .topics-container {
+        display: flex;
+        flex-direction: column; /* Afisare în coloană */
+        align-items: center; /* Aliniere la centru pe axa orizontală */
+        margin-bottom: 30px; /* Distanță între categorii și subiecte */
+    }
+
+    /* Stilizare pentru fiecare subiect */
+    .topic-card {
+        margin-bottom: 17px;
+        background-color: #f9f9f9; /* Culoare sură pentru subiecte */
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        width: 100%; /* Lățimea subiectului */
+    }
+</style>
+
+<h1>Listă de subiecte de forum</h1>
+
+@if (Model.Any())
+{
+    @foreach (var category in Model.Select(forumTopic => forumTopic.ForumCategory).Distinct())
+    {
+        <div class="category">
+            <h4 class="category-title">@category.Name</h4>
+        </div>
+
+        <div class="topics-container">
+            @foreach (var forumTopic in Model.Where(a => a.ForumCategory == category))
+            {
+                <div class="topic-card">
+                    <h5>@forumTopic.Title</h5>
+                    <p>@forumTopic.Description</p>
+                    <p>Autor: @forumTopic.User.Name</p>
+                </div>
+            }
+        </div>
+    }
+}
+else
+{
+    <p>Nu există subiecte de forum disponibile.</p>
+}
+
+

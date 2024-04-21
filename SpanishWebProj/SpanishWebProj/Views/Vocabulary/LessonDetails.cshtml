@@ -1,0 +1,180 @@
+﻿@using Domain.Models.Vocabulary
+@model List<Domain.Entity.Vocabulary.AudioEntity>
+
+@{
+    ViewBag.Title = "Detalii lecție";
+    Layout = "_Layout";
+}
+
+
+<style>
+    /* Stilurile pentru pătratul mare */
+    .square-container {
+        height: 700px;
+        background-color: white; /* Culoarea de fundal */
+        display: flex;
+        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 10px solid lightgray;
+    }
+    /* Stilurile pentru pătratul mic */
+    .small-square {
+        height: 500px; /* Înălțimea pătratului */
+        width: 500px; /* Lățimea pătratului */
+        background-color: lightblue;
+        margin: 0; /* Eliminăm marginile pentru a evita extinderea pătratului */
+        padding: 0; /* Eliminăm padding-ul pentru a evita extinderea pătratului */
+        overflow: hidden; /* Ascunde conținutul care depășește dimensiunile pătratului */
+        
+    }
+
+    /* Stil pentru textul spaniol */
+    .spanish-text {
+        color: black;
+        font-size: 20px; /* Ajustează dimensiunea fontului la 20px sau orice alte dimensiuni dorești */
+        font-weight: bold; /* Face textul mai gros */
+        padding: 10px; /* Aici se aplică padding-ul */
+        background-color: white;
+        text-align: center;
+    }
+
+
+
+    /* Stil pentru imaginea mare */
+    .large-image {
+        width: 100%; /* Lățime automată pentru a se potrivi în container */
+        height: 88%; /* Înălțime automată pentru a se potrivi în container */
+        padding:10px;
+        background-color: white;
+    }
+</style>
+
+@if (Model == null)
+{
+    <div class="square-container">
+        <h5 class="square-text">Nu există</h5>
+    </div>
+}
+else
+{
+
+    <div class="col-12" style="padding: 10px;">
+        <div class="square-container" style="display: flex; flex-direction: column; align-items: center;">
+            <h5>Învață spaniola </h5>
+
+            <!-- Container pentru cercuri -->
+            <div style="display: flex; justify-content: center; align-items: center; width: 100%; padding: 20px;">
+                <!-- Primul cerc -->
+                <div class="circle" style="background-color: #ffb74d; width: 80px; height: 80px; border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+                    <img src="/images/Icons vocabulary/walkman.png" alt="Imagine etapa 1" style="max-width: 60%; max-height: 60%;">
+                </div>
+
+                <!-- Linie intrerupta -->
+                <hr style="border-top: 4px dashed #999; height: 0; width: 200px; margin: 0 20px;">
+
+
+                <!-- Al doilea cerc -->
+                <a href="@Url.Action("LessonDetailsPractice", new { id = ViewBag.LessonId })" id="second-circle-link">
+                    <!-- Aici poți păstra stilizarea cercului -->
+                    <div class="circle" style="background-color: #ffb74d; width: 80px; height: 80px; border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+                        <img src="/images/Icons vocabulary/joystick.png" alt="Imagine etapa 2" style="max-width: 60%; max-height: 60%;">
+                    </div>
+                </a>
+
+            </div>
+
+
+
+
+            <!-- Container pentru pătrate -->
+            <div style="display: flex; justify-content: center; width: 100%;">
+                <!-- Containerul pentru primul pătrat mic -->
+                <div class="small-square col-4" style="margin-right: 10px; padding: 10px;">
+                    <div style="margin-top: 15px; margin-bottom: 15px;">
+                        <table>
+                            <tbody>
+                                @foreach (var audioEntity in Model)
+                                {
+                                    
+                                    <tr>
+                                        <td class="col-3">
+                                            <!-- Adăugăm o clasă pentru a identifica elementul clicat -->
+                                            <div style="color: black; font-size: larger; background-color: white; padding: 10px;" class="romanian-word" data-spanish="@audioEntity.TextSpanish" data-audio="@audioEntity.SoundSpanishPath" data-image="@audioEntity.ImagePath">
+                                                @audioEntity.TextRomanian
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Containerul pentru al doilea pătrat mic -->
+                <div id="second-square" class="small-square col-7" style="padding: 10px;"></div>
+                
+            </div>
+        </div>
+    </div>
+}
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    // Funcția pentru redarea sunetului și actualizarea conținutului pătratului al doilea
+    function playSoundAndDisplayInfo(spanishText, audioPath, imagePath) {
+        // Redăm sunetul
+        var audio = new Audio(audioPath);
+        audio.play();
+
+        // Actualizăm conținutul pătratului al doilea
+        $("#second-square").html(
+            '<div class="spanish-text">' + spanishText + '</div>' +
+            '<audio id="audio-player" controls style="display: none;"><source src="' + audioPath + '" type="audio/mp3"></audio>' +
+            '<img id="image-click" src="' + imagePath + '" class="large-image" style="cursor: pointer;">'
+        );
+
+        // Adăugăm eveniment de clic pe imagine pentru a reda sunetul din nou
+        $("#image-click").click(function () {
+            audio.play();
+        });
+    }
+
+    // Evenimentul de clic pentru fiecare cuvânt românesc
+    $(".romanian-word").click(function () {
+        // Obținem datele relevante pentru cuvântul selectat
+        var spanishText = $(this).data('spanish');
+        var audioPath = $(this).data('audio');
+        var imagePath = $(this).data('image');
+
+        // Apelăm funcția pentru redarea sunetului și actualizarea conținutului pătratului al doilea
+        playSoundAndDisplayInfo(spanishText, audioPath, imagePath);
+    });
+
+    // Redăm sunetul și afișăm informațiile pentru primul cuvânt la încărcarea paginii
+    $(document).ready(function () {
+        if ($(".romanian-word").length > 0) {
+            var firstWord = $(".romanian-word:first");
+            var firstSpanishText = firstWord.data('spanish');
+            var firstAudioPath = firstWord.data('audio');
+            var firstImagePath = firstWord.data('image');
+            $("#second-square").html('<div class="spanish-text">' + firstSpanishText + '</div><img src="' + firstImagePath + '" class="large-image">');
+        }
+    });
+
+
+
+
+
+
+
+    $(document).ready(function () {
+        // Redirecționează utilizatorul către LessonDetailsPractice la clic pe cercul al doilea
+        $("#second-circle-link").click(function (e) {
+            e.preventDefault(); // Oprire acțiune implicită de urmare a link-ului
+            window.location.href = $(this).attr("href"); // Redirecționare către URL-ul din href
+        });
+    });
+</script>

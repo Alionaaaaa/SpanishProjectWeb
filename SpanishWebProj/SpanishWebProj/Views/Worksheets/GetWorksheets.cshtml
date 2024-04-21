@@ -1,0 +1,124 @@
+﻿@using Domain.Extensions
+@using Domain.Models.Worksheet
+@model List<Domain.Entity.Worksheet.Worksheet>
+
+<style>
+
+  
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Elementele vor fi distribuite în mai multe coloane, cu lățimea minimă de 300px și lățimea maximă egală */
+    }
+
+    .title {
+        background-color: #FFA500; /* Galben-oranj */
+        color: white;
+        padding: 10px;
+        margin-bottom: 18px; /* Distanță între categorii */
+        border-radius: 5px;
+        text-align: center; /* Aliniere text la centru */
+    }
+    .category {
+        text-align: left;
+        color: #FFA500;
+        font-weight: bold;
+    }
+
+    .entity {
+        font-size: 17px;
+        margin-left: 15px;
+        color: blueviolet;
+    }
+
+    .level {
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .add-element-section .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #ccc; /* optional: pentru a crea o bordură în jurul casetei */
+        padding: 10px; /* optional: pentru a adăuga spațiu între conținut și marginea casetei */
+    }
+
+    .add-element-section .content {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .add-element-section .button-container {
+        margin-left: 10px; /* optional: pentru a adăuga spațiu între text și buton */
+    }
+</style>
+
+<br />
+<h2 class="form-group text-center title title">Descărcați foi de lucru - printabile</h2>
+<hr />
+<br />
+
+<div class="add-element-section">
+    <div class="container">
+        <div class="content">
+            <h5>Adăugați un nou fișier la categorie</h5>
+        </div>
+        <div class="button-container">
+            <form action="@Url.Action("Create", "Worksheets")" method="get">
+                <button type="submit" class="btn btn-primary">Adăugați</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<br />
+
+@if (Model == null || Model.Count == 0)
+{
+    <div class="row row-cols-1">
+        <h5>Nu există elemente</h5>
+    </div>
+}
+else
+{
+    <p>Puteți descărca aceste foi de lucru (fișiere pdf)</p>
+    <table class="table">
+        <thead>
+        </thead>
+        <tbody>
+            @foreach (var category in Model.Select(worksheet => worksheet.WorksheetCategory).Distinct())
+            {
+                <tr>
+                    <td colspan="3"><h4 class="category">@category.NameCategory</h4></td>
+                </tr>
+                @foreach (var worksheet in Model.Where(ws => ws.WorksheetCategory == category))
+                {
+
+                    <tr>
+
+                        <td><a href="@worksheet.Path" class="entity">@worksheet.Name</a></td>
+                        <td><div class="level">@Domain.Helpers.EnumExtensions.GetDisplayName(worksheet.Level)</div></td>
+
+                        <td>
+                            <form asp-action="Delete" asp-route-id="@worksheet.Id" method="post">
+                                <button type="submit" class="btn btn-danger float-right">Ștergeți</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+}
+
+
+
+<script>
+    // Actualizează eticheta butonului cu numele fișierului încărcat
+    document.getElementById('file').addEventListener('change', function(e) {
+        var fileName = e.target.files[0].name;
+        var label = document.querySelector('.custom-file-label');
+        label.textContent = fileName;
+    });
+</script>

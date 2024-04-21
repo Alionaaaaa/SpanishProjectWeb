@@ -1,0 +1,22 @@
+﻿@model Domain.Models.Quiz.QuizViewModel
+
+@{
+    ViewBag.Title = "Create Quiz";
+    Layout = "_Layout";
+}
+
+<h2>Create Quiz</h2>
+
+<form asp-action="CreateQuiz" method="post">
+    <!-- Your quiz fields here -->
+    <div class="form-group">
+        <label asp-for="Name">Quiz Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Quiz</button>
+</form>
+
+<a asp-action="AddQuestion" asp-controller="QuizQuestion" class="btn btn-primary">Crează întrebare</a>
+

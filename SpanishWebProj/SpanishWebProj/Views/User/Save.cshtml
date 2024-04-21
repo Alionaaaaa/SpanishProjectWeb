@@ -1,0 +1,25 @@
+﻿@model Domain.Models.User.UserViewModel
+
+<form id="formSaveUser">
+    <div class="row">
+        <div class="form-group col-md-4">
+            <label asp-for="@Model.Name" class="col-form-label text-black-50"></label>
+            <input asp-for="@Model.Name" type="text" class="form-control">
+        </div>
+        <div class="form-group col-md-4">
+            <label asp-for="@Model.Password" class="col-form-label text-black-50"></label>
+            <input asp-for="@Model.Password" type="password" class="form-control" />
+        </div>
+        <div class="form-group col-md-4">
+            <label asp-for="@Model.Role" class="col-form-label text-black-50"></label>
+            <select asp-for="@Model.Role" class="form-control" >
+                @foreach (var enumValue in Enum.GetValues(typeof(Domain.Enum.Role)))
+                {
+                    var displayName = Domain.Helpers.EnumExtensions.GetDisplayName((Domain.Enum.Role)enumValue);
+                    <option value="@enumValue">@displayName</option>
+                }
+            </select>
+        </div>
+    </div>
+</form>
+

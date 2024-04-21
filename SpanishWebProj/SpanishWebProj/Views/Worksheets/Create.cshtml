@@ -1,0 +1,81 @@
+﻿@model Domain.Entity.Worksheet.Worksheet
+
+<style>
+    .input-label {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: orange; /* Culorea textului pentru etichetele input-urilor */
+    }
+
+    .title {
+        background-color: #FFA500; /* Galben-oranj */
+        color: white;
+        padding: 10px;
+        margin-bottom: 18px; /* Distanță între categorii */
+        border-radius: 5px;
+        text-align: center; /* Aliniere text la centru */
+    }
+    .form-control {
+        background-color: #f8f9fa; /* Culorea fundalului pentru input-uri */
+        color: orange; /* Culorea textului pentru input-uri */
+    }
+
+    .btn-primary {
+        background-color: orange; /* Culorea fundalului pentru butonul principal */
+        border-color: orange; /* Culorea marginii butonului principal */
+    }
+
+    .btn-primary:hover {
+        background-color: #ff9900; /* Culorea fundalului butonului principal la hover */
+        border-color: #ff9900; /* Culorea marginii butonului principal la hover */
+    }
+
+    .text-danger {
+        color: red; /* Culorea textului pentru mesajele de eroare */
+    }
+</style>
+
+<br>
+<h2 class="form-group text-center title">Crearea foilor de lucru (pdf)</h2>
+<hr />
+<br />
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Name" class="input-label">Introduceți denumirea fișierului</label>
+        <input asp-for="Name" class="form-control" placeholder="Denumirea fișierului" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="myFile" class="input-label">Selectați fișierul PDF:</label>
+        <input type="file" id="myFile" name="myFile" class="form-control-file" accept=".pdf">
+        <span asp-validation-for="Path" class="Path"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Level" class="input-label">Selectați nivelul</label>
+        <select asp-for="Level" class="form-control">
+            @foreach (var enumValue in Enum.GetValues(typeof(Domain.Enum.TypeCourse)))
+            {
+                var displayName = Domain.Helpers.EnumExtensions.GetDisplayName((Domain.Enum.TypeCourse)enumValue);
+                <option value="@enumValue">@displayName</option>
+            }
+        </select>
+        <span asp-validation-for="Level" class="Level"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="WorksheetCategoryId" class="input-label">Adăugați categoria</label>
+        <select asp-for="WorksheetCategoryId" class="form-control">
+            @foreach (var category in ViewBag.getCategory)
+            {
+                <option value="@category.Id">@category.NameCategory</option>
+            }
+        </select>
+    </div>
+    <br><br>
+    <div class="form-group text-center">
+        <button type="submit" class="btn btn-primary btn-lg">Adăugați fișierul</button>
+    </div>
+</form>
+<br />
+<br />

@@ -1,0 +1,45 @@
+﻿@model Domain.Models.Account.RegisterViewModel
+
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Înregistrare";
+}
+
+
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <span class="anchor"></span>
+                    <div class="card card-account card-outline-secondary border border-white">
+                        <div class="card-header">
+                            <h3 class="mb-0 text-center paragraphHome text-black">Înregistrare</h3>
+                        </div>
+                        <div class="card-body">
+                            <form asp-controller="Account" asp-action="Register">
+                                <div asp-validation-summary="All" style="font-size:23px; font-family:Impact" class="text-danger text-center"></div>
+                                <div class="form-group">
+                                    <input asp-for="Name" class="form-control textbox-dg font-weight-bold text-center" placeholder="Nume" type="text">
+                                </div>
+                                <span class="text-black" style="font-size: small; font-family:'Times New Roman'">Parola trebuie să conțină mai mult de 6 simboluri</span>
+                                <div class="form-group">
+                                    <input autocomplete="new-password" asp-for="Password" placeholder="Parola" class="form-control textbox-dg font-weight-bold text-center" type="password">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <input autocomplete="new-password" asp-for="PasswordConfirm" placeholder="Confirmați parola" class="form-control textbox-dg font-weight-bold text-center" type="password">
+                                </div>
+                                <div class="text-left">
+                                    <h5><a asp-controller="Account" target="_blank" asp-action="Login">Aveți deja un cont?</a></h5>
+                                </div>
+
+                                <button class="btn btn-success btn-lg float-right" type="submit">Transmiteți</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

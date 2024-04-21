@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exerciții de Propoziții</title>
+    <style>
+        /* Stilizare pentru aspectul paginii */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        #exercise-container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        #text-container {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        #instructions {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        #result {
+            margin-top: 20px;
+        }
+
+        #output {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="exercise-container">
+        <div id="text-container">
+            <!-- Textul pentru exercițiu -->
+            <p>
+                Orașul New York, cunoscut și sub numele de "Big Apple," este unul dintre cele mai aglomerate și
+                fascinante orașe din lume. Cu zgârie-nori care străpung cerul și parcuri urbane mari,
+                New York oferă o experiență unică.
+            </p>
+        </div>
+
+        <div id="instructions">
+            <p>Extrageți părți de propoziții din textul de mai sus și utilizați-le pentru a crea propoziții noi.</p>
+        </div>
+
+        <div>
+            <label for="user-input">Propoziția ta:</label>
+            <input type="text" id="user-input" placeholder="Introduceți propoziția aici">
+            <button onclick="checkSentence()">Verifică</button>
+        </div>
+
+        <div id="result">
+            <p id="output">Așteptăm răspunsul tău...</p>
+        </div>
+    </div>
+
+    <script>
+        // Funcție pentru verificarea propoziției introduse de utilizator
+        function checkSentence() {
+            // Textul introdus de utilizator
+            var userInput = document.getElementById('user-input').value.toLowerCase();
+
+            // Părțile de propoziții extrase din text
+            var extractedParts = ["Orașul New York", "Big Apple", "este unul dintre cele mai aglomerate și fascinante orașe din lume.", "Cu zgârie-nori care străpung cerul și parcuri urbane mari", "New York oferă o experiență unică."];
+
+            // Verificăm dacă textul introdus conține cel puțin una dintre părțile de propoziții
+            var isMatch = extractedParts.some(function (part) {
+                return userInput.includes(part.toLowerCase());
+            });
+
+            // Afișăm rezultatul
+            var outputElement = document.getElementById('output');
+            outputElement.textContent = isMatch ? "Corect! Propoziția ta include părți din text." : "Încearcă din nou. Propoziția ta nu conține părți din text.";
+        }
+    </script>
+
+</body>
+</html>

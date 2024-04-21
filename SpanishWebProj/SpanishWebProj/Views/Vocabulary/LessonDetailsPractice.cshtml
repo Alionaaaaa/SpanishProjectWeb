@@ -1,0 +1,377 @@
+﻿@model Domain.Models.Vocabulary.AudioQuizViewModel
+
+@{
+    ViewBag.Title = "Detalii lecție pentru quiz";
+    Layout = "_Layout";
+}
+<style>
+    /* Stilurile pentru pătratul mare */
+    .square-container {
+        height: 700px;
+        background-color: white; /* Culoarea de fundal */
+        display: flex;
+        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 10px solid lightgray;
+    }
+
+    /* Stilurile pentru pătratul mic */
+    .small-square {
+        height: 500px; /* Înălțimea pătratului */
+        width: 500px; /* Lățimea pătratului */
+        background-color: lightblue;
+        margin: 0; /* Eliminăm marginile pentru a evita extinderea pătratului */
+        padding: 0; /* Eliminăm padding-ul pentru a evita extinderea pătratului */
+        overflow: hidden; /* Ascunde conținutul care depășește dimensiunile pătratului */
+    }
+
+    /* Stil pentru imaginea din întrebare */
+    .question-image {
+        height: 450px; /* Înălțime automată pentru a se potrivi în container */
+        width: 500px; /* Lățime automată pentru a se potrivi în container */
+        padding: 10px;
+        background-color: white;
+    }
+    /* Stiluri pentru containerul GIF-ului */
+    .gif-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+
+
+    .question-status-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .question-status-circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin: 0 10px;
+        border: 2px solid black;
+    }
+
+    .question-status-correct {
+        background-color: green;
+    }
+
+    .question-status-incorrect {
+        background-color: red;
+    }
+
+</style>
+
+
+@if (Model.Questions.Any())
+{
+    <div class="col-12" style="padding: 10px;">
+        <div id="quizContainer" class="square-container" style="display: flex; flex-direction: column; align-items: center;">
+            @* <h5>@Model.LessonSubject</h5> *@
+            <div class="question-status-container">
+                @for (var i = 0; i < Model.Questions.Count; i++)
+                {
+                    <div class="question-status-circle" id="@($"question-status-{i}")"></div>
+                }
+            </div>
+
+
+            <!-- Container pentru cercuri -->
+            <div style="display: flex; justify-content: center; align-items: center; width: 100%; padding: 20px;">
+                <!-- Primul cerc -->
+                <a href="@Url.Action("LessonDetails", new { id = ViewBag.LessonId })" id="first-circle-link">
+                    <div class="circle" style="background-color: #ffb74d; width: 80px; height: 80px; border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+                        <img src="/images/Icons vocabulary/walkman.png" alt="Imagine etapa 1" style="max-width: 60%; max-height: 60%;">
+
+                    </div>
+                </a>
+
+                <!-- Linie intrerupta -->
+                <hr style="border-top: 4px dashed #999; height: 0; width: 200px; margin: 0 20px;">
+
+
+                <!-- Al doilea cerc -->
+                <!-- Aici poți păstra stilizarea cercului -->
+                <div class="circle" style="background-color: #ffb74d; width: 80px; height: 80px; border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+                    <img src="/images/Icons vocabulary/joystick.png" alt="Imagine etapa 2" style="max-width: 60%; max-height: 60%;">
+                </div>
+
+
+            </div>
+            <!-- Container pentru pătrate -->
+            <div style="display: flex; justify-content: center; width: 100%;">
+                <div class="small-square col-10" style="margin-right: 10px; padding: 10px;">
+                    <div style="margin-top: 15px; margin-bottom: 15px;">
+
+                        @for (var i = 0; i < Model.Questions.Count; i++)
+                        {
+                            var question = Model.Questions[i];
+                            var correctAnswer = ViewData[$"CorrectAnswer-{i}"] as string; // Obținem răspunsul corect pentru întrebare
+                            <div class="questionContainer" id="@($"question-{i}")" style="display: @(i == 0 ? "block" : "none")">
+
+                                <div class="col row-1 " style="display: flex;">
+
+                                    <div style="position: relative;">
+                                        @* <img src="@question.ImagePath" alt="Imagine întrebare" class="question-image" /> *@
+                                        <img src="@question.ImagePath" alt="Imagine întrebare" class="question-image" data-sound-path="@question.SoundSpanishPath" />
+
+                                        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                                            <!-- Container pentru textul întrebării -->
+                                            <div style="background-color: white; padding: 10px; border: 2px solid orange; border-radius: 10px;">
+                                                <!-- Textul întrebării cu bold și culoare portocalie -->
+                                                <h3 style="color: orange; font-size: 30px; font-weight: bold;">@question.QuestionText</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-5" style="padding:15px; align-items: center;">
+                                        <div class="row" style="position: relative; padding-left:20px; align-items: center;">
+                                            <form style="display: flex; flex-direction: column;">
+                                                @for (var j = 0; j < question.Options.Count; j++)
+                                                {
+                                                    var option = question.Options[j];
+                                                    <div style="display: flex; align-items: center;">
+                                                        <input type="radio" id="@($"option-{i}-{j}")" name="@($"answer-{i}")" value="@option" class="option-input" data-sound-romanian-path="@question.SoundRomanianPath">
+                                                        <label for="@($"option-{i}-{j}")" style="color: black; font-size: larger; background-color: white; padding: 10px; flex: 1;">@option</label>
+                                                    </div>
+                                                }
+                                            </form>
+
+                                            <div class="submitAnswerBtn" data-correct-answer="@correctAnswer"></div>
+                                            <div id="feedbackMessage"></div>
+
+                                            @* <!-- Imaginea GIF -->
+                                            <div>
+                                                <img src="/sounds/gif/cute.gif" alt="cute" width="180" height="180">
+                                            </div> *@
+                                            <div class="gif-container" id="gif-container-@i">
+                                                <!-- Aici va fi afișată imaginea GIF -->
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+}
+else
+{
+    <p>Nu există întrebări pentru această lecție.</p>
+}
+
+<div id="quizCompletionModal" class="modal" style="display: none;">
+    <div class="modal-content" style="width: 300px;">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <p>Ați terminat quiz-ul!</p>
+        <button id="retakeQuizBtn">Refaceți testul</button>
+        <button id="viewOtherThemesBtn" onclick="redirectToLessons()">Vizualizați alte teme</button>
+
+    </div>
+</div>
+
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var questionContainers = document.querySelectorAll(".questionContainer");
+        var questionStatusCircles = document.querySelectorAll(".question-status-circle");
+        var questionImages = document.querySelectorAll(".question-image");
+        var firstQuestionSoundPath = document.querySelector(".question-image").getAttribute("data-sound-path");
+        
+        var gifs = {
+            correct: "/sounds/gif/happy.gif",
+            incorrect: "/sounds/gif/sad.gif"
+        };
+
+        
+        
+        
+        
+        // Creăm un nou obiect Audio și redăm sunetul primei întrebări
+        var audio = new Audio(firstQuestionSoundPath);
+        audio.play();
+
+        // Adăugăm un eveniment de clic pentru fiecare imagine
+        questionImages.forEach(function (image) {
+            image.addEventListener("click", function () {
+                // Obținem calea către sunet din atributul data-sound-path al imaginii
+                var soundPath = this.getAttribute("data-sound-path");
+
+                // Creăm un nou obiect Audio și redăm sunetul
+                var audio = new Audio(soundPath);
+                audio.play();
+            });
+        });
+        function updateQuestionStatus(currentQuestionIndex, isCorrect) {
+            if (isCorrect) {
+                questionStatusCircles[currentQuestionIndex].classList.add("question-status-correct");
+                document.getElementById("gif-container-" + currentQuestionIndex).innerHTML = `<img src="${gifs.correct}" alt="correct" width="180" height="180">`;
+            } else {
+                questionStatusCircles[currentQuestionIndex].classList.add("question-status-incorrect");
+                document.getElementById("gif-container-" + currentQuestionIndex).innerHTML = `<img src="${gifs.incorrect}" alt="incorrect" width="180" height="180">`;
+            }
+        }
+
+        function showNextQuestion(currentQuestionIndex, isCorrect) {
+            var nextQuestionIndex = currentQuestionIndex + 1;
+            if (nextQuestionIndex < questionContainers.length) {
+                questionContainers[currentQuestionIndex].style.display = "none";
+                questionContainers[nextQuestionIndex].style.display = "block";
+
+                // Obținem calea către sunet din atributul data-sound-path al imaginii
+                var soundPath = questionContainers[nextQuestionIndex].querySelector(".question-image").getAttribute("data-sound-path");
+
+                // Creăm un nou obiect Audio și redăm sunetul
+                var audio = new Audio(soundPath);
+                audio.play();
+            } else {
+                document.getElementById("feedbackMessage").textContent = "Ați terminat quiz-ul!";
+                document.getElementById("feedbackMessage").classList.add("correct");
+                document.getElementById("quizCompletionModal").style.display = "block"; // Afișăm fereastra modală
+
+                var feedbackImage = document.createElement("img");
+                feedbackImage.setAttribute("width", "180");
+                feedbackImage.setAttribute("height", "180");
+                feedbackImage.setAttribute("src", isCorrect ? "/sounds/gif/happy.gif" : "/sounds/gif/sad.gif");
+                document.querySelector(".gif-container").appendChild(feedbackImage);
+            }
+        }
+
+
+        questionContainers.forEach((container, index) => {
+            container.addEventListener("change", function () {
+                var selectedOption = this.querySelector("input[type='radio']:checked");
+                var correctAnswer = this.querySelector(".submitAnswerBtn").getAttribute("data-correct-answer");
+
+                if (selectedOption) {
+                    var isCorrect = selectedOption.value === correctAnswer;
+                    updateQuestionStatus(index, isCorrect);
+
+                    // Dezactivează toate inputurile radio din acest container
+                    var radioButtons = this.querySelectorAll("input[type='radio']");
+                    radioButtons.forEach(function (radio) {
+                        radio.disabled = true;
+                    });
+
+                    // Adăugăm pauza de 3 secunde și trecerea la următoarea întrebare
+                    setTimeout(function () {
+                        showNextQuestion(index, isCorrect);
+                    }, 3000);
+                }
+            });
+        });
+
+
+
+
+        document.getElementById("retakeQuizBtn").addEventListener("click", function () {
+            // Ascundem fereastra modală și resetăm quiz-ul pentru a-l putea reface
+            document.getElementById("quizCompletionModal").style.display = "none";
+            questionContainers.forEach(container => container.style.display = "none");
+            questionContainers[0].style.display = "block";
+            document.getElementById("feedbackMessage").textContent = "";
+            document.getElementById("feedbackMessage").classList.remove("correct", "incorrect");
+            document.querySelectorAll(".gif-container img").forEach(img => img.remove());
+        });
+
+        document.getElementById("viewOtherThemesBtn").addEventListener("click", function () {
+            // Implementați aici acțiunea pentru a vizualiza alte teme sau redirecționarea către pagina cu alte teme
+        });
+
+ });    
+
+
+    function resetQuiz() {
+        // Ascunde fereastra modală
+        document.getElementById("quizCompletionModal").style.display = "none";
+
+        // Resetează starea cerculețelor de progres
+        var questionStatusCircles = document.querySelectorAll(".question-status-circle");
+        questionStatusCircles.forEach(circle => {
+            circle.classList.remove("question-status-correct", "question-status-incorrect");
+        });
+
+        // Resetează afișarea întrebărilor și caseta de feedback
+        var questionContainers = document.querySelectorAll(".questionContainer");
+        questionContainers.forEach(container => {
+            container.style.display = "none";
+        });
+        questionContainers[0].style.display = "block";
+
+        document.getElementById("feedbackMessage").textContent = "";
+        document.getElementById("feedbackMessage").classList.remove("correct", "incorrect");
+
+        // Deselectează toate opțiunile selectate
+        var selectedOptions = document.querySelectorAll("input[type='radio']:checked");
+        selectedOptions.forEach(option => {
+            option.checked = false;
+        });
+
+        // Activează din nou opțiunile de răspuns
+        var radioButtons = document.querySelectorAll("input[type='radio']");
+        radioButtons.forEach(function (radio) {
+            radio.disabled = false;
+        });
+
+        // Elimină imaginile GIF adăugate anterior
+        var gifContainer = document.querySelector(".gif-container");
+        gifContainer.innerHTML = "";
+    }
+
+    document.getElementById("retakeQuizBtn").addEventListener("click", function () {
+        resetQuiz();
+    });
+    function redirectToLessons() {
+        // Redirecționează utilizatorul către view-ul GetLessons
+        window.location.href = '@Url.Action("GetLessons", "Vocabulary")'; // Înlocuiți "NumeController" cu numele real al controllerului
+    }
+
+
+</script>

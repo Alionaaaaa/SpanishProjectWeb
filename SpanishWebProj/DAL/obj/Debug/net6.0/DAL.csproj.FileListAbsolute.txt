@@ -1,0 +1,187 @@
+D:\LICENTA\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.deps.json
+D:\LICENTA\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.dll
+D:\LICENTA\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.pdb
+D:\LICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+D:\LICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\LICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+D:\LICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+D:\LICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+D:\LICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.dll
+D:\LICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\refint\DAL.dll
+D:\LICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.pdb
+D:\LICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\ref\DAL.dll
+D:\LICENTA\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.dll
+D:\LICENTA\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.pdb
+D:\LICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+D:\LICENTA\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+D:\LICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.deps.json
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.dll
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.pdb
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.dll
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.pdb
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.dll
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\obj\Debug\net6.0\refint\DAL.dll
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.pdb
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+E:\LicentaSolveQuiz\SpanishWebProj\DAL\obj\Debug\net6.0\ref\DAL.dll
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.deps.json
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.dll
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.pdb
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.dll
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.pdb
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.dll
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\refint\DAL.dll
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.pdb
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+E:\LicentaAddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\ref\DAL.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.deps.json
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.pdb
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.pdb
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\refint\DAL.dll
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.pdb
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+E:\Licenta3AddTeamplate\SpanishWebProj\DAL\obj\Debug\net6.0\ref\DAL.dll
+E:\Licenta v4\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.deps.json
+E:\Licenta v4\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+E:\Licenta v4\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.dll
+E:\Licenta v4\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.pdb
+E:\Licenta v4\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.dll
+E:\Licenta v4\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.pdb
+E:\Licenta v4\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+E:\Licenta v4\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Licenta v4\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+E:\Licenta v4\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+E:\Licenta v4\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+E:\Licenta v4\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+E:\Licenta v4\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.dll
+E:\Licenta v4\SpanishWebProj\DAL\obj\Debug\net6.0\refint\DAL.dll
+E:\Licenta v4\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.pdb
+E:\Licenta v4\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+E:\Licenta v4\SpanishWebProj\DAL\obj\Debug\net6.0\ref\DAL.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.deps.json
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.pdb
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.pdb
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\obj\Debug\net6.0\refint\DAL.dll
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.pdb
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+E:\Licenta v5 AddPDF\SpanishWebProj\DAL\obj\Debug\net6.0\ref\DAL.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.deps.json
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.pdb
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.pdb
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\obj\Debug\net6.0\refint\DAL.dll
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.pdb
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+E:\Licenta v6 vocabular2\SpanishWebProj\DAL\obj\Debug\net6.0\ref\DAL.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.deps.json
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.pdb
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.pdb
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\obj\Debug\net6.0\refint\DAL.dll
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.pdb
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+E:\Licenta v7 Profil si forum\SpanishWebProj\DAL\obj\Debug\net6.0\ref\DAL.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.deps.json
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.pdb
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.pdb
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\obj\Debug\net6.0\refint\DAL.dll
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.pdb
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+E:\V8GestionareUtilizatori\SpanishWebProj\DAL\obj\Debug\net6.0\ref\DAL.dll
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.deps.json
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.dll
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.pdb
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.dll
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.pdb
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.dll
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\obj\Debug\net6.0\refint\DAL.dll
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.pdb
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+D:\LICENTA\V10Recover\SpanishWebProj\DAL\obj\Debug\net6.0\ref\DAL.dll
+D:\ProjLICENTA\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.deps.json
+D:\ProjLICENTA\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+D:\ProjLICENTA\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.dll
+D:\ProjLICENTA\SpanishWebProj\DAL\bin\Debug\net6.0\DAL.pdb
+D:\ProjLICENTA\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.dll
+D:\ProjLICENTA\SpanishWebProj\DAL\bin\Debug\net6.0\Domain.pdb
+D:\ProjLICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+D:\ProjLICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjLICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+D:\ProjLICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+D:\ProjLICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+D:\ProjLICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete
+D:\ProjLICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.dll
+D:\ProjLICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\refint\DAL.dll
+D:\ProjLICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.pdb
+D:\ProjLICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+D:\ProjLICENTA\SpanishWebProj\DAL\obj\Debug\net6.0\ref\DAL.dll

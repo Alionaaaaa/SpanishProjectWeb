@@ -1,0 +1,102 @@
+﻿@model List<Domain.Entity.Quiz.Quiz>
+
+@{
+    ViewData["Title"] = "Exersare";
+}
+
+<style>
+    .title {
+        background-color: #FF6347; /* Galben-oranj */
+        color: white;
+        padding: 10px;
+        margin-bottom: 18px; /* Distanță între categorii */
+        border-radius: 5px;
+        text-align: center; /* Aliniere text la centru */
+    }
+    /* Stilizare pentru antetele de tabel */
+    .table th {
+        background-color: #FFA500; /* Galben */
+        color: white;
+    }
+
+    .add-element-section .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #ccc; /* optional: pentru a crea o bordură în jurul casetei */
+        padding: 10px; /* optional: pentru a adăuga spațiu între conținut și marginea casetei */
+    }
+
+    .add-element-section .content {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .add-element-section .button-container {
+        margin-left: 10px; /* optional: pentru a adăuga spațiu între text și buton */
+    }
+</style>
+
+
+
+
+<br />
+<h2 class="form-group text-center title title">Exersarea traducerii frazelor</h2>
+<hr />
+<br />
+@if (User.IsInRole("Moderator"))
+{
+    <div class="add-element-section">
+        <div class="container">
+            <div class="content">
+                <h5>Adăugați un nou test</h5>
+            </div>
+            <div class="button-container">
+                <form action="@Url.Action("CreateQuiz", "Quiz")" method="get">
+                    <button type="submit" class="btn btn-primary">Adăugați</button>
+                </form>
+            </div>
+        </div>
+    </div>
+}
+<br />
+@* <!-- Adăugarea butonului pentru crearea unui nou quiz -->
+<a asp-action="CreateQuiz" asp-controller="Quiz" class="btn btn-primary mb-3">Crează test nou</a>
+ *@
+
+@if (Model != null && Model.Any())
+{
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Denumirea testului</th>
+                    @if (User.IsInRole("Moderator"))
+                    {
+                        <th scope="col">Acțiune</th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var quiz in Model)
+                {
+                    <tr>
+                        <td style="padding-left: 50px;">
+                            <a asp-action="QuizDetails" asp-route-id="@quiz.Id">@quiz.Name</a>
+                        </td>
+                        @if (User.IsInRole("Moderator"))
+                        {
+                            <td>
+                                <a asp-controller="Quiz" asp-action="Delete" asp-route-id="@quiz.Id" class="btn btn-danger btn-sm">Ștergeți</a>
+                            </td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <p>Nu există quiz-uri</p>
+}

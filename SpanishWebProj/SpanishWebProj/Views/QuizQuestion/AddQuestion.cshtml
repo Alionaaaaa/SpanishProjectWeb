@@ -1,0 +1,94 @@
+﻿@model Domain.Models.Quiz.QuizQuestionViewModel
+
+@{
+    ViewData["Title"] = "Creați întrebare la test";
+}
+
+<style>
+    /* Stil pentru adăugarea spațiului de sus */
+    form {
+        margin-top: 50px;
+    }
+
+    .title {
+        background-color: #FFA500; /* Galben-oranj */
+        color: white;
+        padding: 10px;
+        margin-bottom: 18px; /* Distanță între categorii */
+        border-radius: 5px;
+        text-align: center; /* Aliniere text la centru */
+    }
+
+    /* Stilizare pentru textare resizable */
+    .resizable-textarea {
+        resize: vertical; /* Permite redimensionarea verticală a textarei */
+    }
+
+    /* Definirea unei clase pentru a grupa opțiunile de răspuns */
+    .response-options {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Două coloane egale */
+        gap: 10px; /* Spațiu între opțiuni */
+    }
+    /* Stilizare pentru butonul de submit */
+    .submit-button {
+        margin-top: 30px; /* Adaugă spațiu între input fields și buton */
+    }
+</style>
+
+<br>
+<h2 class="form-group text-center title">Crearea întrebării pentru test</h2>
+<hr />
+<br />
+<form asp-action="AddQuestion" method="post">
+    <div class="form-row">
+        <label asp-for="QuestionText">Întrebarea</label>
+        <textarea asp-for="QuestionText" class="form-control resizable-textarea"></textarea>
+        <span asp-validation-for="QuestionText" class="text-danger"></span>
+    </div>
+
+    <!-- Gruparea opțiunilor de răspuns folosind clasa creată -->
+    <div class="response-options">
+        <div class="form-row">
+            <label asp-for="A">Opțiunea A</label>
+            <textarea asp-for="A" class="form-control resizable-textarea"></textarea>
+            <span asp-validation-for="A" class="text-danger"></span>
+        </div>
+        <div class="form-row">
+            <label asp-for="B">Opțiunea B</label>
+            <textarea asp-for="B" class="form-control resizable-textarea"></textarea>
+            <span asp-validation-for="B" class="text-danger"></span>
+        </div>
+        <div class="form-row">
+            <label asp-for="C">Opțiunea C</label>
+            <textarea asp-for="C" class="form-control resizable-textarea"></textarea>
+            <span asp-validation-for="C" class="text-danger"></span>
+        </div>
+        <div class="form-row">
+            <label asp-for="D">Opțiunea D</label>
+            <textarea asp-for="D" class="form-control resizable-textarea"></textarea>
+            <span asp-validation-for="D" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="RightAnswer">Răspunsul corect</label>
+        <select asp-for="RightAnswer" class="form-control">
+            <option value="A">Opțiunea A</option>
+            <option value="B">Opțiunea B</option>
+            <option value="C">Opțiunea C</option>
+            <option value="D">Opțiunea D</option>
+        </select>
+        <span asp-validation-for="RightAnswer" class="text-danger"></span>
+    </div>
+
+    <!-- Automatically populated QuizId field (hidden from user) -->
+    <div class="form-group" style="display: none;">
+        <label asp-for="QuizId">Quiz ID</label>
+        <input asp-for="QuizId" class="form-control" readonly />
+        <span asp-validation-for="QuizId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary submit-button">Creați întrebarea</button>
+
+</form>

@@ -1,0 +1,53 @@
+﻿@using Domain.Extensions;
+@using Domain.Models.Vocabulary
+@model List<Domain.Entity.Vocabulary.AudioLesson>
+
+@{
+    ViewBag.Title = "Lista de lecții";
+    Layout = "_Layout";
+}
+
+<style>
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%; /* Asigură că înălțimea cardului este constantă */
+    }
+
+    .card-img {
+        width: 100%; /* Setează lățimea imaginii la 100% din lățimea cardului */
+        height: auto; /* Păstrează proporțiile imaginii */
+    }
+</style>
+
+<br>
+<h2 class="form-group text-center">Vocabular la diferite teme</h2>
+<hr />
+
+@if (Model == null)
+{
+    <div class="row row-cols-1">
+        <h5>Nu există lecții</h5>
+    </div>
+}
+else
+{
+    <div class="row">
+        @foreach (var audioLesson in Model)
+        {
+            <div class="col-md-4" style="padding: 10px;">
+                <div class="card">
+                    <a href="@Url.Action("LessonDetails", "Vocabulary", new { id = audioLesson.Id })">
+                        <img src="@audioLesson.ImagePath" class="card-img" />
+                        <div class="card-body">
+                            <h5 class="card-title">@audioLesson.Subject</h5>
+                            <p>Nivel: @audioLesson.Level.GetDisplayName()</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+}

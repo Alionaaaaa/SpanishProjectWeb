@@ -1,0 +1,153 @@
+﻿@model Domain.Models.Quiz.QuizViewModel
+
+@{
+    ViewData["Title"] = "Întrebările testului";
+}
+
+<style>
+    /* Stiluri pentru adăugarea spațiului de sus */
+    .add-element-section {
+        margin-top: 50px;
+    }
+
+        /* Stiluri pentru secțiunea de adăugare a întrebării */
+        .add-element-section .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        .add-element-section .content {
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        .add-element-section .button-container {
+            margin-left: 30px;
+        }
+
+    /* CSS pentru stilizarea întrebărilor */
+    .question {
+        font-size: 23px;
+        font-weight: bold;
+        color: #8a2be2; /* Albastru închis */
+    }
+
+    /* CSS pentru stilizarea opțiunilor de răspuns */
+    .option {
+        font-size: 20px;
+        color: black; /* Violet */
+    }
+    /* Stilizează întrebările */
+    #scoreValue {
+        font-size: 16px;
+        color: orange;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+</style>
+@* <h2>@ViewData["Title"]</h2> *@
+@* <a asp-action="AddQuestion" asp-controller="QuizQuestion" asp-route-quizId="@Model.Id" class="btn btn-primary">Crează nouă întrebare </a> *@
+@if (User.IsInRole("Moderator"))
+{
+    <div class="add-element-section">
+        <div class="container">
+            <div class="content">
+                <h5>Adăugați o nouă întrebare la test</h5>
+            </div>
+            <div class="button-container">
+                <a asp-action="AddQuestion" asp-controller="QuizQuestion" asp-route-quizId="@Model.Id" class="btn btn-primary">Adăugați </a>
+                @* <form action="@Url.Action("AddQuestion", "QuizQuestion")" method="get">
+            <button type="submit" class="btn btn-primary">Adăugați</button>
+            </form> *@
+            </div>
+        </div>
+    </div>
+}
+<br />
+
+@if (Model.Questions.Any())
+{
+    <form id="quizForm">
+        <input type="hidden" name="quizId" value="@Model.Id" />
+        <ul>
+            @for (var i = 0; i < Model.Questions.Count; i++)
+            {
+                var question = Model.Questions[i];
+                <li class="question">
+                    <strong style="font-size: 25px;">@question.QuestionText</strong><br />
+                    <input type="hidden" name="questionIds[@i]" value="@question.Id" />
+                    <input type="hidden" name="questionIds[@i]" value="@question.Id" />
+                    <label class="option"><input type="radio" name="answers[@i]" value="A" />  A| @question.A </label><br />
+                    <label class="option"><input type="radio" name="answers[@i]" value="B" />  B| @question.B </label><br />
+                    <label class="option"><input type="radio" name="answers[@i]" value="C" />  C| @question.C </label><br />
+                    <label class="option"><input type="radio" name="answers[@i]" value="D" />  D| @question.D </label><br />
+                    <span id="rightAnswer_@i" style="display:none;">Răspunsul corect: @question.RightAnswer</span><br />
+                </li>
+                <hr />
+            }
+        </ul>
+        <button type="button" onclick="submitAnswers()" class="btn btn-primary">Trimiteți răspunsurile</button>
+        <p id="scoreValue"></p>
+    </form>
+}
+
+else
+{
+    <p>No questions found for this quiz.</p>
+}
+
+
+
+<script>
+    function submitAnswers() {
+        // Obțineți formularul
+        var quizForm = document.getElementById("quizForm");
+
+        // Obțineți toate elementele radio din formular
+        var answerInputs = quizForm.querySelectorAll("input[type=radio]:checked");
+
+        // Inițializați o variabilă pentru a stoca răspunsurile selectate și răspunsurile corecte
+        var selectedAnswers = [];
+        var correctAnswers = [];
+
+        // Inițializați scorul
+        var score = 0;
+
+        // Iterați prin fiecare element radio selectat și obțineți valoarea răspunsului și răspunsul corect corespunzător
+        answerInputs.forEach(function (input) {
+            var questionIndex = input.name.split('[')[1].split(']')[0]; // Obțineți indexul întrebării
+            var correctAnswer = document.getElementById("rightAnswer_" + questionIndex).innerText.split(':')[1].trim(); // Obțineți răspunsul corect
+            selectedAnswers.push(input.value);
+            correctAnswers.push(correctAnswer);
+
+            // Verificați dacă răspunsul dat de utilizator este corect și adăugați un punct la scor dacă este
+            if (input.value === correctAnswer) {
+                score++;
+            }
+        });
+
+        // Afizați răspunsurile selectate și răspunsurile corecte, împreună cu scorul
+        var scoreValue = document.getElementById("scoreValue");
+        // scoreValue.innerText = "Răspunsurile selectate sunt: " + selectedAnswers.join(", ") + "\n";
+        //scoreValue.innerText += "Răspunsurile corecte sunt: " + correctAnswers.join(", ") + "\n";
+        scoreValue.innerText += "Răspunsuri corecte: " + score + " din " + correctAnswers.length;
+
+        // Afiseaza raspunsurile corecte sub fiecare intrebare si coloreaza raspunsurile gresite cu rosu
+        for (var i = 0; i < correctAnswers.length; i++) {
+            var rightAnswerElement = document.getElementById("rightAnswer_" + i);
+            rightAnswerElement.style.display = 'inline';
+            if (selectedAnswers[i] !== correctAnswers[i]) {
+                rightAnswerElement.style.color = 'red'; // răspuns greșit
+            } else {
+                rightAnswerElement.style.color = 'green'; // răspuns corect
+            }
+        }
+    }
+</script>
+
+
+
