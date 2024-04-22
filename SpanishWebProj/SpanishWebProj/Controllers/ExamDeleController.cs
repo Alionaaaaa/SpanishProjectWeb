@@ -1,19 +1,32 @@
-﻿using BusinessLogic.Implementations;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using HtmlAgilityPack;
-using System.Text;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace SpanishWebProj.Controllers
 {
     public class ExamDeleController : Controller
     {
-        private List<string> Levels = new List<string> { "A1", "A2", "B1", "B2", "C1", "C2" };
-
-        public async Task<IActionResult> GetExams()
+        public async Task<IActionResult> GetExams(string url)
         {
-            var content = await GetPageContent("https://examenes.cervantes.es/es/dele/examenes/a1");
+            var content = await GetPageContent("https://examenes.cervantes.es" + url);
             return View("GetExams", content);
         }
+
+
+        public async Task<IActionResult> GetExamContent(string level)
+        {
+            var url = "https://examenes.cervantes.es/es/dele/examenes/" + level.ToLower();
+            var content = await GetPageContent(url);
+
+            var model = new Dictionary<string, string>();
+            model.Add("ExamContent", content);
+            model.Add("Level", level);
+
+            return PartialView("ExamContentPartial", model);
+        }
+
+
 
 
         private async Task<string> GetPageContent(string url)
@@ -21,17 +34,13 @@ namespace SpanishWebProj.Controllers
             var httpClient = new HttpClient();
             var html = await httpClient.GetStringAsync(url);
 
-            // Parsează conținutul HTML folosind HtmlAgilityPack
             var htmlDocument = new HtmlDocument();
             htmlDocument.LoadHtml(html);
 
-            // Extrage elementul cu id-ul "maincontent"
             var mainContentNode = htmlDocument.DocumentNode.SelectSingleNode("//*[@id='maincontent']/article/div[2]/div[2]");
 
-            // Verifică dacă s-a găsit elementul
             if (mainContentNode != null)
             {
-                // Elimină toate elementele <img> cu clasa "file-icon" din conținut
                 var fileIconImages = mainContentNode.SelectNodes("//img[@class='file-icon']");
                 if (fileIconImages != null)
                 {
@@ -40,13 +49,10 @@ namespace SpanishWebProj.Controllers
                         imgNode.Remove();
                     }
                 }
-
-                // Returnează conținutul HTML al elementului găsit (fără imaginile cu clasa "file-icon")
                 return mainContentNode.OuterHtml;
             }
             else
             {
-                // În caz contrar, returnează un mesaj de eroare sau altă logică de gestionare a lipsei elementului
                 return "<p>Error: Main content not found.</p>";
             }
         }

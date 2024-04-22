@@ -1,0 +1,15 @@
+﻿@model Dictionary<string, string>
+
+<style>
+    
+</style>
+<br/>
+<div id="examContent">
+    <h4>Vizualizați și descărcați examenele pentru nivelul: @Model["Level"]</h4>
+    <h6>(Informațiile sunt în limba spaniolă)</h6>
+    <hr />
+    <ul TYPE=square>
+        @Html.Raw(Model["ExamContent"])
+    </ul>
+    <hr />
+</div>

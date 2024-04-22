@@ -1,3 +1,114 @@
-﻿<div>
-    @Html.Raw(Model) <!-- Render HTML content -->
+﻿<title>Examen DELE</title>
+
+<style>
+    .dreptunghi-niveluri {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nivel {
+        width: 100px; /* Setează lățimea patratului */
+        height: 60px; /* Setează înălțimea patratului */
+        border: 1px solid black; /* Adaugă un contur patratului */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10px; /* Adaugă o distanță între patrate */
+        cursor: pointer; /* Transformă cursorul într-un pointer la hover */
+    }
+
+        .nivel.clicked {
+            background-color: yellow; /* Schimbă culoarea de fundal la apăsare */
+        }
+</style>
+
+
+<h2 class="form-group text-center">Conținutul examenelor DELE</h2>
+<hr />
+
+<div class="dreptunghi-niveluri">
+    <div class="nivel" onclick="loadExamContent('A1')">
+        <h2>A1</h2>
+    </div>
+    <div class="nivel" onclick="loadExamContent('A2')">
+        <h2>A2</h2>
+    </div>
+    <div class="nivel" onclick="loadExamContent('B1')">
+
+        <h2>B1</h2>
+    </div>
+    <div class="nivel" onclick="loadExamContent('B2')">
+        <h2>B2</h2>
+    </div>
+    <div class="nivel" onclick="loadExamContent('C1')">
+        <h2>C1</h2>
+    </div>
+    <div class="nivel" onclick="loadExamContent('C2')">
+        <h2>C2</h2>
+    </div>
 </div>
+<br/>
+
+
+
+<div id="A1Content" class="exam-content" style="display:none;">
+    @Html.Partial("A1Partial")
+</div>
+
+<div id="A2Content" class="exam-content" style="display:none;">
+    @Html.Partial("A2Partial")
+</div>
+<div id="B1Content" class="exam-content" style="display:none;">
+    @Html.Partial("B1Partial")
+</div>
+
+<div id="B2Content" class="exam-content" style="display:none;">
+    @Html.Partial("B2Partial")
+</div>
+<div id="C1Content" class="exam-content" style="display:none;">
+    @Html.Partial("C1Partial")
+</div>
+
+<div id="C2Content" class="exam-content" style="display:none;">
+    @Html.Partial("C2Partial")
+</div>
+
+<div id="examContentContainer">
+    <!-- continutul pentru partView -->
+</div>
+<h6>
+    Pentru mai multe informații accesați pagina oficială 
+    <a href="https://examenes.cervantes.es/es/dele/examenes/a1">Instituto Cervantes</a>.
+</h6>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    // Funcția care va fi apelată pentru încărcarea implicită a conținutului pentru nivelul A1
+    function loadDefaultContent() {
+        // Simulează apăsarea pe nivelul A1
+        loadExamContent('A1');
+    }
+
+    // În momentul încărcării paginii, apelează funcția pentru încărcarea implicită a conținutului pentru nivelul A1
+    $(document).ready(function () {
+        loadDefaultContent();
+    });
+
+    // Funcția pentru încărcarea conținutului examenului
+    function loadExamContent(level) {
+        // Înlătură clasa "clicked" de pe toate elementele .nivel
+        $('.nivel').removeClass('clicked');
+        // Adaugă clasa "clicked" pe elementul .nivel care a fost apăsat
+        $('.nivel:contains(' + level + ')').addClass('clicked');
+
+        $.get('@Url.Action("GetExamContent", "ExamDele")', { level: level }, function (data) {
+            $('#examContentContainer').html(data);
+            $('.exam-content').hide(); // Ascunde toate elementele cu clasa exam-content
+            $('#' + level + 'Content').show(); // Afișează conținutul corespunzător nivelului examenului
+        });
+    }
+
+
+
+
+</script>
