@@ -33,7 +33,7 @@
     .question {
         font-size: 23px;
         font-weight: bold;
-        color: #8a2be2; /* Albastru închis */
+        color: #8a2be2; 
     }
 
     /* CSS pentru stilizarea opțiunilor de răspuns */
@@ -44,10 +44,16 @@
 
     /* Stilizează întrebările */
     #scoreValue {
-        font-size: 16px;
-        color: orange;
+        font-size: 24px; /* Mărește dimensiunea fontului */
+        font-weight: bold; /* Face textul să fie mai îngroșat */
+        color: #FF6347; /* Folosește o culoare portocalie aprinsă */
         text-align: center;
-        margin-top: 10px;
+        margin-top: 20px;
+        border: 2px solid #FF6347; /* Adaugă un contur portocaliu */
+        padding: 10px; /* Adaugă un spațiu în jurul textului */
+        border-radius: 10px; /* Rotunjirea colțurilor conturului */
+        background-color: #FFF8DC; /* Adaugă un fundal ușor deasupra scorului */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adaugă o umbră ușoară pentru adâncime */
     }
 
     /* CSS pentru stilizarea întrebărilor */
@@ -81,6 +87,8 @@
     .wrong-answer {
         background-color: #ffcdd2; /* Roșu deschis */
     }
+    /* Stilizează mesajul pentru răspunsul corect */
+    
 </style>
 
 @if (User.IsInRole("Moderator"))
@@ -108,23 +116,24 @@
             <div class="question-container">
                 <div class="question">
                     <strong style="font-size: 25px;">@question.QuestionText</strong><br />
-
+                </div>
                     <div class="option-container ">
-                        <label class="option"><input type="radio" name="answers[@i]" value="A" />  A| @question.A </label><br />
+                        <label class="option"><input type="radio" name="answers[@i]" value="A" />  (A) @question.A </label><br />
                     </div>
 
                     <div class="option-container">
-                        <label class="option"><input type="radio" name="answers[@i]" value="B" />  B| @question.B </label><br />
+                        <label class="option"><input type="radio" name="answers[@i]" value="B" />  (B) @question.B </label><br />
                     </div>
                     <div class="option-container">
-                        <label class="option"><input type="radio" name="answers[@i]" value="C" />  C| @question.C </label><br />
+                        <label class="option"><input type="radio" name="answers[@i]" value="C" />  (C) @question.C </label><br />
                     </div>
                     <div class="option-container">
-                        <label class="option"><input type="radio" name="answers[@i]" value="D" />  D| @question.D </label><br />
+                        <label class="option"><input type="radio" name="answers[@i]" value="D" />  (D) @question.D </label><br />
                     </div>
-                    <span id="rightAnswer_@i" style="display:none;">Răspunsul corect: @question.RightAnswer</span><br />
-                    <span id="correctAnswerMessage_@i" style="display:none;">
-                        Răspunsul corect este: (@question.RightAnswer)
+
+                    <h5 class="correct-answer-text" id="rightAnswer_@i" style="display:none;">Răspunsul corect: @question.RightAnswer</h5><br />
+                    <h5 class="correct-answer-text" id="correctAnswerMessage_@i" style="display:none;">
+                        Răspunsul corect: (@question.RightAnswer)
                         @{
                             // Determină care dintre opțiunile A, B, C, sau D este corectă
                             string correctOptionText = "";
@@ -146,9 +155,8 @@
                             }
                         }
                         @correctOptionText
-                    </span>
+                    </h5>
 
-                </div>
             </div>
             <hr />
         }
@@ -162,6 +170,16 @@ else
 }
 
 <script>
+    
+    // Funcția care va fi apelată la încărcarea paginii
+    window.onload = function () {
+        // Obțineți caseta de scor
+        var scoreValue = document.getElementById("scoreValue");
+        // Afizați un mesaj de început în casetă
+        scoreValue.innerText = "Răspundeți la întrebări pentru a obține scorul.";
+    }
+
+    
     function submitAnswers() {
         // Obțineți formularul
         var quizForm = document.getElementById("quizForm");
@@ -191,6 +209,7 @@ else
 
         // Afizați scorul într-un element separat
         var scoreValue = document.getElementById("scoreValue");
-        scoreValue.innerText = "Scor: " + score + " / " + answerInputs.length;
+        scoreValue.innerText = "Scor: " + score + " / " + @Model.Questions.Count; 
     }
 </script>
+
