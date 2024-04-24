@@ -17,5 +17,8 @@ namespace Domain.Models.Quiz
 
         public List<QuizQuestion>? Questions { get; set; }
 
+    
+    
+    
     }
 }

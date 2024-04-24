@@ -4,6 +4,7 @@
     ViewData["Title"] = "Întrebările testului";
 }
 
+
 <style>
     /* Stiluri pentru adăugarea spațiului de sus */
     .add-element-section {
@@ -122,7 +123,31 @@
                         <label class="option"><input type="radio" name="answers[@i]" value="D" />  D| @question.D </label><br />
                     </div>
                     <span id="rightAnswer_@i" style="display:none;">Răspunsul corect: @question.RightAnswer</span><br />
-                    <span id="correctAnswerMessage_@i" style="display:none;">Răspunsul corect este: @question.RightAnswer</span><br />
+                    <span id="correctAnswerMessage_@i" style="display:none;">
+                        Răspunsul corect este: (@question.RightAnswer)
+                        @{
+                            // Determină care dintre opțiunile A, B, C, sau D este corectă
+                            string correctOptionText = "";
+                            if (question.RightAnswer == "A")
+                            {
+                                correctOptionText = question.A;
+                            }
+                            else if (question.RightAnswer == "B")
+                            {
+                                correctOptionText = question.B;
+                            }
+                            else if (question.RightAnswer == "C")
+                            {
+                                correctOptionText = question.C;
+                            }
+                            else if (question.RightAnswer == "D")
+                            {
+                                correctOptionText = question.D;
+                            }
+                        }
+                        @correctOptionText
+                    </span>
+
                 </div>
             </div>
             <hr />
