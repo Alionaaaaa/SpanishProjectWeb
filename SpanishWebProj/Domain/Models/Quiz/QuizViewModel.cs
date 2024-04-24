@@ -16,5 +16,6 @@ namespace Domain.Models.Quiz
         public int? TotalScore { get; set; }
 
         public List<QuizQuestion>? Questions { get; set; }
+
     }
 }

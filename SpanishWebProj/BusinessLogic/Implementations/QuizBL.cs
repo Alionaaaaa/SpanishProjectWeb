@@ -195,54 +195,6 @@ namespace BusinessLogic.Implementations
             }
         }
 
-        //public async Task<BaseResponse<Dictionary<int, string>>> CalculateQuizScore(string term)
-        //{
-        //    var baseResponse = new BaseResponse<Dictionary<int, string>>();
-        //    try
-        //    {
-        //        var quiz = await _quizRepository.GetAll()
-        //            .Select(x => new CarViewModel()
-        //            {
-
-        //        if (quiz == null)
-        //        {
-        //            // Returnează -1 sau lansează o excepție în cazul în care quiz-ul nu există
-        //            throw new Exception("Quiz not found");
-        //        }
-
-        //        int totalScore = 0;
-
-        //        // Iterate through each question in the quiz
-        //        foreach (var question in quiz.QuizQuestions)
-        //        {
-
-
-        //            // Check if the user has answered this question
-        //            if (answers.TryGetValue(question.Id, out var userAnswer))
-        //            {
-        //                // Add the user's choice to the userChoices dictionary
-                        
-
-        //                // Check if the user's answer is correct
-        //                if (userAnswer == question.RightAnswer)
-        //                {
-        //                    // Increment the total score for each correct answer
-        //                    totalScore++;
-        //                }
-        //            }
-        //        }
-
-        //        // Returnează scorul total
-        //        return totalScore;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        // În caz de eroare, returnează -1 sau lansează excepția mai departe
-        //        throw new Exception($"Failed to calculate quiz score: {ex.Message}");
-        //    }
-        //}
-
-
 
 
 

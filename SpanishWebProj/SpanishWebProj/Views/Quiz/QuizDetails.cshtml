@@ -40,6 +40,7 @@
         font-size: 20px;
         color: black; /* Violet */
     }
+
     /* Stilizează întrebările */
     #scoreValue {
         font-size: 16px;
@@ -48,9 +49,39 @@
         margin-top: 10px;
     }
 
+    /* CSS pentru stilizarea întrebărilor */
+    .question-container {
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #f9f9f9; /* culoare fundal dreptunghi */
+    }
+
+    /* CSS pentru stilizarea opțiunilor de răspuns */
+    .option-container {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: #f9f9f9; /* culoare fundal dreptunghi */
+        display: flex; /* face ca containerul să folosească flexbox */
+        align-items: center; /* aliniază opțiunile pe axa verticală */
+    }
+
+        .option-container .option {
+            flex-grow: 1; /* face ca opțiunea să ocupe tot spațiul disponibil */
+        }
+
+    /* Stilizează opțiunile de răspuns pentru răspunsul corect */
+    .correct-answer {
+        background-color: #c8e6c9; /* Verde deschis */
+    }
+
+    /* Stilizează opțiunile de răspuns pentru răspunsul greșit */
+    .wrong-answer {
+        background-color: #ffcdd2; /* Roșu deschis */
+    }
 </style>
-@* <h2>@ViewData["Title"]</h2> *@
-@* <a asp-action="AddQuestion" asp-controller="QuizQuestion" asp-route-quizId="@Model.Id" class="btn btn-primary">Crează nouă întrebare </a> *@
+
 @if (User.IsInRole("Moderator"))
 {
     <div class="add-element-section">
@@ -60,9 +91,6 @@
             </div>
             <div class="button-container">
                 <a asp-action="AddQuestion" asp-controller="QuizQuestion" asp-route-quizId="@Model.Id" class="btn btn-primary">Adăugați </a>
-                @* <form action="@Url.Action("AddQuestion", "QuizQuestion")" method="get">
-            <button type="submit" class="btn btn-primary">Adăugați</button>
-            </form> *@
             </div>
         </div>
     </div>
@@ -73,34 +101,40 @@
 {
     <form id="quizForm">
         <input type="hidden" name="quizId" value="@Model.Id" />
-        <ul>
-            @for (var i = 0; i < Model.Questions.Count; i++)
-            {
-                var question = Model.Questions[i];
-                <li class="question">
+        @for (var i = 0; i < Model.Questions.Count; i++)
+        {
+            var question = Model.Questions[i];
+            <div class="question-container">
+                <div class="question">
                     <strong style="font-size: 25px;">@question.QuestionText</strong><br />
-                    <input type="hidden" name="questionIds[@i]" value="@question.Id" />
-                    <input type="hidden" name="questionIds[@i]" value="@question.Id" />
-                    <label class="option"><input type="radio" name="answers[@i]" value="A" />  A| @question.A </label><br />
-                    <label class="option"><input type="radio" name="answers[@i]" value="B" />  B| @question.B </label><br />
-                    <label class="option"><input type="radio" name="answers[@i]" value="C" />  C| @question.C </label><br />
-                    <label class="option"><input type="radio" name="answers[@i]" value="D" />  D| @question.D </label><br />
+
+                    <div class="option-container ">
+                        <label class="option"><input type="radio" name="answers[@i]" value="A" />  A| @question.A </label><br />
+                    </div>
+
+                    <div class="option-container">
+                        <label class="option"><input type="radio" name="answers[@i]" value="B" />  B| @question.B </label><br />
+                    </div>
+                    <div class="option-container">
+                        <label class="option"><input type="radio" name="answers[@i]" value="C" />  C| @question.C </label><br />
+                    </div>
+                    <div class="option-container">
+                        <label class="option"><input type="radio" name="answers[@i]" value="D" />  D| @question.D </label><br />
+                    </div>
                     <span id="rightAnswer_@i" style="display:none;">Răspunsul corect: @question.RightAnswer</span><br />
-                </li>
-                <hr />
-            }
-        </ul>
+                    <span id="correctAnswerMessage_@i" style="display:none;">Răspunsul corect este: @question.RightAnswer</span><br />
+                </div>
+            </div>
+            <hr />
+        }
         <button type="button" onclick="submitAnswers()" class="btn btn-primary">Trimiteți răspunsurile</button>
         <p id="scoreValue"></p>
     </form>
 }
-
 else
 {
     <p>No questions found for this quiz.</p>
 }
-
-
 
 <script>
     function submitAnswers() {
@@ -110,10 +144,6 @@ else
         // Obțineți toate elementele radio din formular
         var answerInputs = quizForm.querySelectorAll("input[type=radio]:checked");
 
-        // Inițializați o variabilă pentru a stoca răspunsurile selectate și răspunsurile corecte
-        var selectedAnswers = [];
-        var correctAnswers = [];
-
         // Inițializați scorul
         var score = 0;
 
@@ -121,33 +151,21 @@ else
         answerInputs.forEach(function (input) {
             var questionIndex = input.name.split('[')[1].split(']')[0]; // Obțineți indexul întrebării
             var correctAnswer = document.getElementById("rightAnswer_" + questionIndex).innerText.split(':')[1].trim(); // Obțineți răspunsul corect
-            selectedAnswers.push(input.value);
-            correctAnswers.push(correctAnswer);
 
             // Verificați dacă răspunsul dat de utilizator este corect și adăugați un punct la scor dacă este
-            if (input.value === correctAnswer) {
+            if (input.value.trim().toUpperCase() === correctAnswer.trim().toUpperCase()) {
                 score++;
+                input.parentElement.classList.add('correct-answer'); // Adăugați clasa CSS pentru răspuns corect
+            } else {
+                input.parentElement.classList.add('wrong-answer'); // Adăugați clasa CSS pentru răspuns greșit
             }
+            // Afizați răspunsul corect
+            var correctAnswerMessage = document.getElementById("correctAnswerMessage_" + questionIndex);
+            correctAnswerMessage.style.display = "inline";
         });
 
-        // Afizați răspunsurile selectate și răspunsurile corecte, împreună cu scorul
+        // Afizați scorul într-un element separat
         var scoreValue = document.getElementById("scoreValue");
-        // scoreValue.innerText = "Răspunsurile selectate sunt: " + selectedAnswers.join(", ") + "\n";
-        //scoreValue.innerText += "Răspunsurile corecte sunt: " + correctAnswers.join(", ") + "\n";
-        scoreValue.innerText += "Răspunsuri corecte: " + score + " din " + correctAnswers.length;
-
-        // Afiseaza raspunsurile corecte sub fiecare intrebare si coloreaza raspunsurile gresite cu rosu
-        for (var i = 0; i < correctAnswers.length; i++) {
-            var rightAnswerElement = document.getElementById("rightAnswer_" + i);
-            rightAnswerElement.style.display = 'inline';
-            if (selectedAnswers[i] !== correctAnswers[i]) {
-                rightAnswerElement.style.color = 'red'; // răspuns greșit
-            } else {
-                rightAnswerElement.style.color = 'green'; // răspuns corect
-            }
-        }
+        scoreValue.innerText = "Scor: " + score + " / " + answerInputs.length;
     }
 </script>
-
-
-
