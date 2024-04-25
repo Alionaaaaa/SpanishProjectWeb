@@ -31,6 +31,14 @@
         background-color: white;
     }
 
+    .custom-label {
+        color: black;
+        font-size: larger;
+        background-color: white;
+        padding: 10px;
+        flex: 1;
+    }
+
     .gif-container {
         display: flex;
         justify-content: center;
@@ -115,6 +123,16 @@
     .question-status-incorrect {
         background-color: red;
     }
+
+    .correct-label {
+        color: green; /* Culorea textului pentru opțiunea corectă */
+    }
+
+    .incorrect-label {
+        color: red; /* Culorea textului pentru opțiunea incorectă */
+    }
+
+
 </style>
 
 
@@ -166,7 +184,7 @@
                                                     var option = question.Options[j];
                                                     <div style="display: flex; align-items: center; width: 270px;">
                                                         <input type="radio" id="@($"option-{i}-{j}")" name="@($"answer-{i}")" value="@option" class="option-input" data-sound-romanian-path="@question.SoundRomanianPath">
-                                                        <label for="@($"option-{i}-{j}")" style="color: black; font-size: larger; background-color: white; padding: 10px; flex: 1;">@option</label>
+                                                        <label class="custom-label" for="@($"option-{i}-{j}")">@option</label>
                                                     </div>
                                                 }
                                             </form>
@@ -222,6 +240,8 @@ else
         });
 
         function updateQuestionStatus(currentQuestionIndex, isCorrect) {
+            
+            
             if (isCorrect) {
                 questionStatusCircles[currentQuestionIndex].classList.add("question-status-correct");
                 document.getElementById("gif-container-" + currentQuestionIndex).innerHTML = `<img src="${gifs.correct}" alt="correct" width="180" height="180">`;
@@ -267,12 +287,23 @@ else
                         radio.disabled = true;
                     });
 
+                    // Adăugați acest cod pentru a adăuga clasele CSS corecte sau incorecte etichetelor
+                    var labels = this.querySelectorAll(".custom-label");
+                    labels.forEach(function (label) {
+                        if (label.textContent === correctAnswer) {
+                            label.classList.add("correct-label");
+                        } else {
+                            label.classList.add("incorrect-label");
+                        }
+                    });
+
                     setTimeout(function () {
                         showNextQuestion(index, isCorrect);
-                    }, 3000);
+                    }, 2000);
                 }
             });
         });
+
 
         document.getElementById("retakeQuizBtn").addEventListener("click", function () {
             document.getElementById("quizCompletionModal").style.display = "none";
@@ -313,6 +344,13 @@ else
         questionContainers[0].style.display = "block";
         document.getElementById("feedbackMessage").textContent = "";
         document.getElementById("feedbackMessage").classList.remove("correct", "incorrect");
+
+        // Eliminăm clasele CSS de la etichetele personalizate
+        var labels = document.querySelectorAll(".custom-label");
+        labels.forEach(label => {
+            label.classList.remove("correct-label", "incorrect-label");
+        });
+
         var selectedOptions = document.querySelectorAll("input[type='radio']:checked");
         selectedOptions.forEach(option => {
             option.checked = false;
@@ -325,7 +363,4 @@ else
         gifContainer.innerHTML = "";
     }
 
-    function redirectToLessons() {
-        window.location.href = '/Vocabulary/GetLessons'; 
-    }
 </script>
