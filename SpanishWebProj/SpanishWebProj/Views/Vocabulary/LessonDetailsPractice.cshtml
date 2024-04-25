@@ -142,7 +142,7 @@
             </div>
 
             <div style="display: flex; justify-content: center; width: 100%;">
-                <div class="small-square col-10" style="margin-right: 10px; padding: 10px;">
+                <div class="small-square col-11" style="margin-right: 10px; padding: 10px;">
                     <div style="margin-top: 15px; margin-bottom: 15px;">
                         @for (var i = 0; i < Model.Questions.Count; i++)
                         {
@@ -164,7 +164,7 @@
                                                 @for (var j = 0; j < question.Options.Count; j++)
                                                 {
                                                     var option = question.Options[j];
-                                                    <div style="display: flex; align-items: center;">
+                                                    <div style="display: flex; align-items: center; width: 270px;">
                                                         <input type="radio" id="@($"option-{i}-{j}")" name="@($"answer-{i}")" value="@option" class="option-input" data-sound-romanian-path="@question.SoundRomanianPath">
                                                         <label for="@($"option-{i}-{j}")" style="color: black; font-size: larger; background-color: white; padding: 10px; flex: 1;">@option</label>
                                                     </div>
